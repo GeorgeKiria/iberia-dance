@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/7f9ea5846a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Libre+Baskerville&family=Nova+Cut&family=Philosopher&family=Ysabeau:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7f9ea5846a.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script defer src="libs/inputmask.min.js"></script> 
+<script defer src="libs/just-validate.min.js"></script> 
+<script defer src="js/script.js"></script> 
+
+
+    <title>Iberia</title>
+</head>
+<body>
+    <header>
+       
+        <a href="index.html" class="logo__photo">
+            <img src="images/logo1.jpg" alt="">
+        </a>
+        <div href="index.html" class="logo">I B E R I A</div>
+        
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="menu">  
+            <ul class="mainMenu">
+            <li><a href="#"><i class=""></i>О нас</a>
+                <ul>
+                    <li><a href="#">История ансмбля</a></li>
+                    <li><a href="#">Хореографы</a></li>
+                    <li><a href="#">Стоимость</a></li>
+                </ul>
+            </li>
+            <li><a href="schedule.html"><i class=""></i>Расписание</a></li>
+            <li><a href="photo.html"><i class=""></i>Фото</a></li>
+            <li><a href="video.html"><i class=""></i>Видео</a></li>
+            <li><a href="services.html"><i class=""></i>Услуги</a></li>
+            <li><a href="show__group.html">Шоу-группа</a></li>
+            </ul>
+            
+        </nav>  
+    </header>
+    <script>
+      hamburger = document.querySelector(".hamburger");
+      hamburger.onclick = function() {
+          menu = document.querySelector(".menu");
+          menu.classList.toggle("active");
+      }
+  </script>
+    <div class="photo">
+      <section class="gallery">
+        <h2 class="title">Закулисье</h2>
+</div>
+<div class="gallery-list">
+    <a href="images/закулисье1.jpg" class="gallery-item">
+        <div class="gallery-item-hover">Посмотреть</div>
+        <img src="images/закулисье1.jpg" alt="alt">
+      </a>
+      <a href="images/закулисье2.jpg" class="gallery-item">
+        <div class="gallery-item-hover">Посмотреть</div>
+        <img src="images/закулисье2.jpg" alt="alt">
+      </a>
+      <a href="images/" class="gallery-item">
+        <div class="gallery-item-hover">Посмотреть</div>
+        <img src="images/закулисье1.jpg" alt="alt">
+      </a>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+<script>
+  $(".gallery-list").magnificPopup({
+    delegate: "a",
+    type: "image",
+    gallery: {
+      enabled: true
+    }
+  });
+</script>
+</body>
+</html>
